@@ -1,0 +1,18 @@
+ # Ignore bundle config
+ /.bundle
+
+ # Ignore the default SQLite database
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all log-files and temp-files
+/log/*.log
+/log/*.log.lck
+/log/#.log.*
+/tmp
+.idea
+
+# Ignore default test-unit files
+/test
+
+

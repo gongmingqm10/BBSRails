@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html ng-app="LiveRails:app">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="user-scalable=no,width=device-width">
+      <title>LiveRails</title>
+      <%= stylesheet_link_tag    "home", media: "all", "data-turbolinks-track" => true %>
+      <%= csrf_meta_tags %>
+    </head>
+    <body ng-view>
+    <%= javascript_include_tag "app-home", "data-turbolinks-track" => true %>
+    <p>Welcome to home!!</p>
+    </body>
+</html>
