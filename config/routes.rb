@@ -6,7 +6,8 @@ LiveRails::Application.routes.draw do
 
   get 'home', to: 'web_ui#home'
   get 'admin', to: 'web_ui#admin'
-
+  get 'register', to: 'web_ui#register'
+  post 'register', to: 'users#create'
 
   root 'web_ui#index'
 end

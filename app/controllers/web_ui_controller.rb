@@ -16,6 +16,10 @@ class WebUiController < ApplicationController
     render 'login', layout: nil
   end
 
+  def register
+    render 'register', layout: nil
+  end
+
   def logout
     session.delete(:user_id)
     cookies.delete(:user)

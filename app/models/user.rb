@@ -4,7 +4,7 @@ class User
 
   field :username, type: String
   field :email, type: String
-  field :role, type: String
+  field :role, type: String, default: 'guest'
   field :password, type: String
 
   validates_presence_of :username, :password
